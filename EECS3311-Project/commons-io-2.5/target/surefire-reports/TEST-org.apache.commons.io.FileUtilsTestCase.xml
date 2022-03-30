@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.commons.io.FileUtilsTestCase" time="3.71" tests="135" errors="0" skipped="1" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.boot.library.path" value="C:\Users\randy\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\randy\Documents\School\New folder (2)\proj\commons-io-2.5"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\randy\Documents\School\New folder (2)\proj\commons-io-2.5"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\randy\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\randy\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8375314378088916077.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\randy\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/randy/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/randy/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\MATLAB\R2020b\bin;C:\Users\randy\AppData\Local\Microsoft\WindowsApps;;C:\Users\randy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\randy"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="randy"/>
+    <property name="java.class.path" value="C:\Users\randy\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210618-2246\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Users\randy\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\randy\Documents\School\New folder (2)\proj\commons-io-2.5\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testCopyFile1" classname="org.apache.commons.io.FileUtilsTestCase" time="0.021"/>
+  <testcase name="testCopyFile2" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testChecksumOnDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testWriteLines_3arg_nullSeparator" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testChecksum" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testGetUserDirectoryPath" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testToFiles3a" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testChecksumCRC32" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testWriteLines_3argsWithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testCopyDirectoryToChild" classname="org.apache.commons.io.FileUtilsTestCase" time="0.088"/>
+  <testcase name="testContentEqualsIgnoreEOL" classname="org.apache.commons.io.FileUtilsTestCase" time="0.025">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.apache.commons.io.FileUtilsTestCase.testContentEqualsIgnoreEOL(FileUtilsTestCase.java:700)
+</failure>
+  </testcase>
+  <testcase name="testForceDeleteAFile1" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testForceDeleteAFile2" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testForceDeleteAFile3" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testCopyToSelf" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testDeleteQuietlyForNull" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testToFile1" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testToFile2" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testToFile3" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testToFile4" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testToFile5" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testToURLs1" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testDeleteQuietlyNonExistent" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="test_openInputStream_existsButIsDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testToFileUtf8" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testCopyDirectoryToNonExistingDest" classname="org.apache.commons.io.FileUtilsTestCase" time="0.036"/>
+  <testcase name="testToFiles1" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testToFiles2" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testToFiles3" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testToFiles4" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testWriteByteArrayToFile" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testMoveFile_CopyDelete_Failed" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testWriteLines_5argsWithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testWriteLines_4arg_Writer_nullData" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testMoveFile_Errors" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testWriteStringToFile_WithAppendOptionFalse_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="test_openOutputStream_exists" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testListFilesWithDirs" classname="org.apache.commons.io.FileUtilsTestCase" time="0.021"/>
+  <testcase name="testWriteLines_3argsWithAppendOptionFalse_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.012"/>
+  <testcase name="testWriteLines_4argsWithAppendOptionFalse_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testIO276" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testIO300" classname="org.apache.commons.io.FileUtilsTestCase" time="0.013"/>
+  <testcase name="testWriteLines_5argsWithAppendOptionFalse_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testTouch" classname="org.apache.commons.io.FileUtilsTestCase" time="0.03"/>
+  <testcase name="testIncorrectOutputSize" classname="org.apache.commons.io.FileUtilsTestCase" time="0.014"/>
+  <testcase name="testGetUserDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testChecksumDouble" classname="org.apache.commons.io.FileUtilsTestCase" time="0.012"/>
+  <testcase name="testToURLs3a" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testMoveFile_Rename" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testCopyFileLarge" classname="org.apache.commons.io.FileUtilsTestCase" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testWriteByteArrayToFile_WithAppendOptionFalse_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testCopyDirectoryToDirectory_NonExistingDest" classname="org.apache.commons.io.FileUtilsTestCase" time="0.031"/>
+  <testcase name="testMoveDirectory_CopyDelete" classname="org.apache.commons.io.FileUtilsTestCase" time="0.018"/>
+  <testcase name="testGetFile_Parent" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="test_openOutputStream_noParentNoFile" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testWriteWithEncoding_WithAppendOptionFalse_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testCopyFile2WithoutFileDatePreservation" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testMoveFile_CopyDelete" classname="org.apache.commons.io.FileUtilsTestCase" time="0.012"/>
+  <testcase name="testFileUtils" classname="org.apache.commons.io.FileUtilsTestCase" time="0.012"/>
+  <testcase name="testForceMkdir" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testCopyFile1ToDir" classname="org.apache.commons.io.FileUtilsTestCase" time="0.016"/>
+  <testcase name="testListFiles" classname="org.apache.commons.io.FileUtilsTestCase" time="0.027"/>
+  <testcase name="testMoveDirectoryToDirectory_Errors" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testCopyFile2ToDir" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testForceDeleteDir" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testGetFile" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testWriteByteArrayToFile_WithOffsetAndLength" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testReadLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testWriteStringToFileWithEncoding_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testGetTempDirectoryPath" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="test_openOutputStream_notExists" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testMoveDirectory_Errors" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testReadFileToStringWithEncoding" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testSizeOfAsBigInteger" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testCopyURLToFileWithTimeout" classname="org.apache.commons.io.FileUtilsTestCase" time="0.012"/>
+  <testcase name="test_openOutputStream_notExistsCannotCreate" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testForceMkdirParent" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testCopyDirectoryToItself" classname="org.apache.commons.io.FileUtilsTestCase" time="0.013"/>
+  <testcase name="testWriteStringToFileWithEncoding_WithAppendOptionFalse_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testWriteLines_4arg" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="test_openOutputStream_noParentCreateFile" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testCopyFileToOutputStream" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testMoveDirectory_Rename" classname="org.apache.commons.io.FileUtilsTestCase" time="0.013"/>
+  <testcase name="testWrite_WithAppendOptionFalse_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testCopyDirectoryToGrandChild" classname="org.apache.commons.io.FileUtilsTestCase" time="0.086"/>
+  <testcase name="testDeleteDirectoryWithNonDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testWriteByteArrayToFile_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="testReadFileToByteArray" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testIsFileNewerOlder" classname="org.apache.commons.io.FileUtilsTestCase" time="2.041"/>
+  <testcase name="testByteCountToDisplaySizeLong" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testSizeOfDirectoryAsBigInteger" classname="org.apache.commons.io.FileUtilsTestCase" time="0.018"/>
+  <testcase name="testGetTempDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testWriteLines_4argsWithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.012"/>
+  <testcase name="testMoveToDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.015"/>
+  <testcase name="testReadFileToStringWithDefaultEncoding" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testCompareSizeOf" classname="org.apache.commons.io.FileUtilsTestCase" time="0.082"/>
+  <testcase name="testWriteStringToFile1" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testWriteStringToFile2" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testWriteStringToFile3" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testWriteByteArrayToFile_WithOffsetAndLength_WithAppendOptionTrue_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testMoveToDirectory_Errors" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testSizeOfDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.013"/>
+  <testcase name="testDecodeUrlLenient" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testWriteCharSequence1" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testWriteCharSequence2" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testDecodeUrlNullSafe" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testChecksumOnNullFile" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testWriteLinesEncoding_WithAppendOptionFalse_ShouldDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testCopyDirectoryToExistingDest" classname="org.apache.commons.io.FileUtilsTestCase" time="0.028"/>
+  <testcase name="testDeleteQuietlyDir" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testContentEquals" classname="org.apache.commons.io.FileUtilsTestCase" time="0.025"/>
+  <testcase name="testDecodeUrl" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="test_openInputStream_notExists" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testWriteLines_4arg_nullSeparator" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testIterateFiles" classname="org.apache.commons.io.FileUtilsTestCase" time="0.023"/>
+  <testcase name="testCopyDirectoryFiltered" classname="org.apache.commons.io.FileUtilsTestCase" time="0.038"/>
+  <testcase name="testWriteWithEncoding_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testByteCountToDisplaySizeBigInteger" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testCopyDirectoryErrors" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testWriteByteArrayToFile_WithOffsetAndLength_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testChecksumOnNullChecksum" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testIterateFilesAndDirs" classname="org.apache.commons.io.FileUtilsTestCase" time="0.012"/>
+  <testcase name="testDeleteQuietlyFile" classname="org.apache.commons.io.FileUtilsTestCase" time="0.007"/>
+  <testcase name="testWriteStringToFile_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="test_openOutputStream_existsButIsDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testMoveDirectoryToDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.014"/>
+  <testcase name="testSizeOf" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testMoveFileToDirectory_Errors" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testCopyURLToFile" classname="org.apache.commons.io.FileUtilsTestCase" time="0.011"/>
+  <testcase name="testWriteLinesEncoding_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+  <testcase name="test_openInputStream_exists" classname="org.apache.commons.io.FileUtilsTestCase" time="0.008"/>
+  <testcase name="testMoveFileToDirectory" classname="org.apache.commons.io.FileUtilsTestCase" time="0.009"/>
+  <testcase name="testCopyDirectoryPreserveDates" classname="org.apache.commons.io.FileUtilsTestCase" time="0.044"/>
+  <testcase name="testDecodeUrlEncodingUtf8" classname="org.apache.commons.io.FileUtilsTestCase" time="0.006"/>
+  <testcase name="testWrite_WithAppendOptionTrue_ShouldNotDeletePreviousFileLines" classname="org.apache.commons.io.FileUtilsTestCase" time="0.01"/>
+</testsuite>

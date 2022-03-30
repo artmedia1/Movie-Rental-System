@@ -1,0 +1,10 @@
+name,id,email,password,username,ShippingAddress,points,AccountType
+Test,1,t1@yorku.ca,t1t1,t1u,121  Fake St.,7,Customer
+t2,2,t2@yorku.ca,t2t2,t2u,122  Fake St.,10,Customer
+t3,3,t3@yorku.ca,t3t3,t3u,123  Fake St.,10,Customer
+t4,4,t4@yorku.ca,t4t4,t4u,124  Fake St.,10,Customer
+test,5,test@yorku.ca,test,test,125  Fake St.,10,Admin
+niceguy,6,GG@gmail.com,n1,n1n1,126 Fake Street,0,Admin
+Dude2,7,proj2@yorku.ca,password2,projectUser,1245 Fake avenue,0,Customer
+Project2,8,Project2@yorku.ca,Project2,Project,Project St,0,Customer
+Project32,9,Project32@yorku.ca,Project32,Project3,Project3 st,1,Customer
